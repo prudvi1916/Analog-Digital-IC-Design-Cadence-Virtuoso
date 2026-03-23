@@ -48,7 +48,7 @@ Inverter/
 ## 📐 Schematic Design
 
 <p align="center">
-  <img src="images/Inverter_Schematic.png" width="650"/>
+  <img src="Images/Inverter_Schematic.png" width="650"/>
 </p>
 
 - CMOS inverter using **PMOS (pull-up)** and **NMOS (pull-down)**
