@@ -1,0 +1,199 @@
+# 📘 CMOS Inverter Design and Analysis (GPDK 90nm)
+
+<p align="center">
+  <b>Custom IC Design | Analog Layout | Physical Verification</b><br>
+  Cadence Virtuoso • Spectre • Assura • GPDK 90nm
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Technology-GPDK90nm-blue">
+  <img src="https://img.shields.io/badge/Tool-Cadence%20Virtuoso-orange">
+  <img src="https://img.shields.io/badge/Verification-Assura-green">
+  <img src="https://img.shields.io/badge/Status-LVS%20%26%20DRC%20Clean-brightgreen">
+</p>
+
+---
+
+## 🚀 Overview
+This project demonstrates the **complete custom design flow of a CMOS inverter** using **GPDK 90nm technology** in Cadence Virtuoso.
+
+It includes:
+- Schematic Design  
+- DC & Transient Simulations  
+- Parametric Sweep Analysis  
+- Layout Design  
+- Physical Verification using **Assura (DRC, LVS, RCX)**  
+
+---
+
+## 📂 Project Structure
+nverter/
+│── README.md # Project documentation
+│
+├── images/ # All simulation and result screenshots
+│ ├── schematic.png # CMOS inverter schematic
+│ ├── symbol.png # Symbol view of inverter
+│ ├── testbench.png # Testbench setup
+│ ├── dc_response.png # VTC curve (DC analysis)
+│ ├── dc_parametric.png # DC parametric sweep results
+│ ├── transient.png # Transient response
+│ ├── transient_parametric.png # Transient parametric sweep
+│ ├── layout.png # Layout design
+│ ├── drc.png # DRC clean result
+│ ├── lvs.png # LVS match result
+│ ├── rcx.png # RC extraction result
+│ ├── extraction.png # Extracted simulation
+│ ├── compare.png # Pre vs Post layout comparison
+│
+├── schematic/ # Cadence schematic files (optional)
+│ └── inverter_schematic
+│
+├── layout/ # Layout and extracted views
+│ ├── inverter_layout
+│ ├── inverter_extracted
+│
+└── simulations/ # ADE setup / outputs (optional)
+├── dc_analysis
+├── transient_analysis
+├── parametric_sweep
+
+
+📌 **Important:** Place all screenshots inside the `images/` folder with exact names.
+
+---
+
+## 🛠️ Tools & Technology
+- **Cadence Virtuoso** (Schematic, ADE, Layout XL)
+- **Spectre Simulator**
+- **Assura** (DRC, LVS, RCX)
+- **PDK:** GPDK 90nm
+
+---
+
+## 📐 Schematic Design
+
+<p align="center">
+  <img src="images/schematic.png" width="650"/>
+</p>
+
+- CMOS inverter using **PMOS (pull-up)** and **NMOS (pull-down)**
+- Input applied to both gates
+- Output taken at common drain node
+
+---
+
+## 🔁 DC Analysis (VTC Curve)
+
+<p align="center">
+  <img src="images/dc_response.png" width="650"/>
+  <br><br>
+  <img src="images/dc_parametric.png" width="650"/>
+</p>
+
+### Observations:
+- Clear **Voltage Transfer Characteristics (VTC)**
+- Switching threshold shifts with PMOS width (Wp)
+- Strong gain region near switching point
+
+---
+
+## ⚡ Transient Analysis
+
+<p align="center">
+  <img src="images/transient.png" width="650"/>
+  <br><br>
+  <img src="images/transient_parametric.png" width="650"/>
+</p>
+
+### Observations:
+- Correct logic inversion behavior
+- Rise and fall delays observed
+- Delay varies with sizing ratio (Wp/Wn)
+
+---
+
+## 📊 Parametric Sweep Analysis
+
+<p align="center">
+  <img src="images/dc_parametric.png" width="650"/>
+</p>
+
+- Swept **PMOS width (Wp)** from **120nm to 500nm**
+- Observed:
+  - Switching threshold variation  
+  - Delay changes  
+  - Output slope differences  
+
+---
+
+## 🧩 Layout Design
+
+<p align="center">
+  <img src="images/layout.png" width="350"/>
+</p>
+
+### Features:
+- PMOS placed in **N-well**, NMOS in **P-substrate**
+- Shared poly gate for input
+- Compact and optimized routing
+- Proper use of diffusion, poly, metal, and vias
+
+---
+
+## ✅ Verification (Assura)
+
+<p align="center">
+  <img src="images/drc.png" width="250"/>
+  <img src="images/lvs.png" width="250"/>
+  <img src="images/rcx.png" width="250"/>
+</p>
+
+### ✔ DRC (Design Rule Check)
+- No violations found  
+- Layout follows all GPDK 90nm rules  
+
+### ✔ LVS (Layout vs Schematic)
+- Perfect match between schematic and layout  
+- No mismatches  
+
+### ✔ RC Extraction (RCX)
+- Parasitics extracted successfully  
+- Used for post-layout simulation  
+
+---
+
+## 📈 Post-Layout Simulation
+
+<p align="center">
+  <img src="images/extraction.png" width="400"/>
+  <img src="images/compare.png" width="400"/>
+</p>
+
+- Slight delay increase due to parasitic effects  
+- Realistic inverter behavior observed  
+
+---
+
+## 📌 Key Learnings
+- Impact of transistor sizing on switching threshold  
+- Trade-offs between delay and performance  
+- Importance of parasitic extraction  
+- Full custom IC design flow experience  
+
+---
+
+## 🎯 Conclusion
+Successfully designed, simulated, and verified a CMOS inverter in **GPDK 90nm technology**, covering the complete flow from schematic to post-layout validation using **Cadence Virtuoso and Assura**.
+
+---
+
+## 👨‍💻 Author
+
+**Poli Prudvi Reddy**  
+📧 Email: prudvireddypoli@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/prudvi-poli  
+
+---
+
+## ⭐ Support
+If you found this project useful, give it a ⭐ on GitHub and feel free to connect!
