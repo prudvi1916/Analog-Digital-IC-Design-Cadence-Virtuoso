@@ -30,14 +30,10 @@ It includes:
 
 ```
 Inverter/
-│── README.md        # Project description
-│── images/          # All screenshots (schematic, layout, results)
-│── schematic/       # Schematic files
-│── layout/          # Layout and extracted files
+│── README.md        # Project overview and documentation
+│── images/          # Simulation results and layout screenshots
+│── files/           # Cadence design files (schematic, layout, testbench)
 ```
-
-
-📌 **Important:** Place all screenshots inside the `images/` folder with exact names.
 
 ---
 
