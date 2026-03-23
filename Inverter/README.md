@@ -27,35 +27,14 @@ It includes:
 ---
 
 ## 📂 Project Structure
-nverter/
-│── README.md # Project documentation
-│
-├── images/ # All simulation and result screenshots
-│ ├── schematic.png # CMOS inverter schematic
-│ ├── symbol.png # Symbol view of inverter
-│ ├── testbench.png # Testbench setup
-│ ├── dc_response.png # VTC curve (DC analysis)
-│ ├── dc_parametric.png # DC parametric sweep results
-│ ├── transient.png # Transient response
-│ ├── transient_parametric.png # Transient parametric sweep
-│ ├── layout.png # Layout design
-│ ├── drc.png # DRC clean result
-│ ├── lvs.png # LVS match result
-│ ├── rcx.png # RC extraction result
-│ ├── extraction.png # Extracted simulation
-│ ├── compare.png # Pre vs Post layout comparison
-│
-├── schematic/ # Cadence schematic files (optional)
-│ └── inverter_schematic
-│
-├── layout/ # Layout and extracted views
-│ ├── inverter_layout
-│ ├── inverter_extracted
-│
-└── simulations/ # ADE setup / outputs (optional)
-├── dc_analysis
-├── transient_analysis
-├── parametric_sweep
+
+```
+Inverter/
+│── README.md        # Project description
+│── images/          # All screenshots (schematic, layout, results)
+│── schematic/       # Schematic files
+│── layout/          # Layout and extracted files
+```
 
 
 📌 **Important:** Place all screenshots inside the `images/` folder with exact names.
