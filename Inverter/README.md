@@ -60,9 +60,9 @@ Inverter/
 ## 🔁 DC Analysis (VTC Curve)
 
 <p align="center">
-  <img src="images/dc_response.png" width="650"/>
+  <img src="Images/Inverter_DC_Response.png" width="650"/>
   <br><br>
-  <img src="images/dc_parametric.png" width="650"/>
+  <img src="Images/Inverter_DC_Parametric sweep.png" width="650"/>
 </p>
 
 ### Observations:
@@ -75,9 +75,9 @@ Inverter/
 ## ⚡ Transient Analysis
 
 <p align="center">
-  <img src="images/transient.png" width="650"/>
+  <img src="Images/Inverter_Transient.png" width="650"/>
   <br><br>
-  <img src="images/transient_parametric.png" width="650"/>
+  <img src="Images/Inverter_Transient_Parametric sweep.png" width="650"/>
 </p>
 
 ### Observations:
@@ -90,7 +90,7 @@ Inverter/
 ## 📊 Parametric Sweep Analysis
 
 <p align="center">
-  <img src="images/dc_parametric.png" width="650"/>
+  <img src="Images/Inverter_Parametric sweep_Setup.png" width="650"/>
 </p>
 
 - Swept **PMOS width (Wp)** from **120nm to 500nm**
@@ -104,7 +104,7 @@ Inverter/
 ## 🧩 Layout Design
 
 <p align="center">
-  <img src="images/layout.png" width="350"/>
+  <img src="Images/Inverter_layout.png" width="350"/>
 </p>
 
 ### Features:
@@ -118,9 +118,9 @@ Inverter/
 ## ✅ Verification (Assura)
 
 <p align="center">
-  <img src="images/drc.png" width="250"/>
-  <img src="images/lvs.png" width="250"/>
-  <img src="images/rcx.png" width="250"/>
+  <img src="Images/Inverter_drc.png" width="250"/>
+  <img src="Images/Inverter_lvs.png" width="250"/>
+  <img src="Images/Inverter_rcx.png" width="250"/>
 </p>
 
 ### ✔ DRC (Design Rule Check)
@@ -140,8 +140,8 @@ Inverter/
 ## 📈 Post-Layout Simulation
 
 <p align="center">
-  <img src="images/extraction.png" width="400"/>
-  <img src="images/compare.png" width="400"/>
+  <img src="Images/Inverter_Compare.png" width="400"/>
+  <img src="Images/Inverter_Extraction.png" width="400"/>
 </p>
 
 - Slight delay increase due to parasitic effects  
