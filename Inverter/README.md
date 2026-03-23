@@ -75,9 +75,9 @@ Inverter/
 ## ⚡ Transient Analysis
 
 <p align="center">
-  <img src="Images/Inverter_Transient.png" width="650"/>
+  <img src="Images/Inverter_Trasient.png" width="650"/>
   <br><br>
-  <img src="Images/Inverter_Transient_Parametric sweep.png" width="650"/>
+  <img src="Images/Inverter_Trasient_Parametric sweep.png" width="650"/>
 </p>
 
 ### Observations:
