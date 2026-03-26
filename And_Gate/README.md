@@ -46,7 +46,7 @@ And_Gate/
 ## 📐 Schematic Design
 
 <p align="center">
-  <img src="images/And_Schematic.png" width="650"/>
+  <img src="Images/And_Schematic.png" width="650"/>
 </p>
 
 - CMOS implementation using **PMOS pull-up** and **NMOS pull-down networks**
@@ -58,7 +58,7 @@ And_Gate/
 ## 🔷 Symbol View
 
 <p align="center">
-  <img src="images/And_Symbol.png" width="400"/>
+  <img src="Images/And_Symbol.png" width="400"/>
 </p>
 
 - Custom symbol created for hierarchical usage and modular design
@@ -68,7 +68,7 @@ And_Gate/
 ## 🧪 Testbench Setup
 
 <p align="center">
-  <img src="images/And_tb.png" width="650"/>
+  <img src="Images/And_tb.png" width="650"/>
 </p>
 
 - Pulse inputs applied to verify all logic conditions:
@@ -82,7 +82,7 @@ And_Gate/
 ## ⚡ Transient Analysis
 
 <p align="center">
-  <img src="images/And_Transient_response.png" width="650"/>
+  <img src="Images/And_Transient response.png" width="650"/>
 </p>
 
 ### Observations:
@@ -95,7 +95,7 @@ And_Gate/
 ## ⏱️ Delay Analysis
 
 <p align="center">
-  <img src="images/And_Delay.png" width="500"/>
+  <img src="Images/And_Delay.png" width="500"/>
 </p>
 
 - Propagation delay measured at 50% threshold  
@@ -106,7 +106,7 @@ And_Gate/
 ## ⚡ Energy Analysis
 
 <p align="center">
-  <img src="images/And_Energy.png" width="500"/>
+  <img src="Images/And_Energy.png" width="500"/>
 </p>
 
 - Estimated switching energy: **~14.93 fJ**  
