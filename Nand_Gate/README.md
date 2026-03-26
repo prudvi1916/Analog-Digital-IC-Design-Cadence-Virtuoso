@@ -77,7 +77,7 @@ Inverter/
 ## ⚡ Transient Analysis
 
 <p align="center">
-  <img src="Images/Nand_Transient_response.png" width="650"/>
+  <img src="Images/Nand_Transient response.png" width="650"/>
 </p>
 
 ### Observations:
