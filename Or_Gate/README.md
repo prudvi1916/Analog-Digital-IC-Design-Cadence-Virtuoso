@@ -23,7 +23,7 @@ The OR gate is implemented using **CMOS logic derived from NOR + inverter config
 
 ## 📂 Project Structure
 ```
-Inverter/
+Or_Gate/
 │── README.md        # Project overview and documentation
 │── images/          # Simulation results and layout screenshots
 │── files/           # Cadence design files (schematic, layout, testbench)
