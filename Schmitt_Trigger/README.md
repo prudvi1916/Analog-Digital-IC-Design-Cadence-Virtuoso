@@ -23,7 +23,7 @@ The Schmitt Trigger introduces **hysteresis behavior** using positive feedback, 
 
 ## 📂 Project Structure
 ```
-Schmitt Trigger/
+Schmitt_Trigger/
 │── README.md        # Project overview and documentation
 │── images/          # Simulation results and layout screenshots
 │── files/           # Cadence design files (schematic, layout, testbench)
