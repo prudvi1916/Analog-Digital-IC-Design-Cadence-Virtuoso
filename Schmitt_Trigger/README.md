@@ -45,7 +45,7 @@ And_Gate/
 ## 📐 Schematic Design
 
 <p align="center">
-  <img src="images/Schmitt_Schematic.png" width="650"/>
+  <img src="Images/Schmitt_Schematic.png" width="650"/>
 </p>
 
 - CMOS implementation with **positive feedback**
@@ -57,7 +57,7 @@ And_Gate/
 ## 🔷 Symbol View
 
 <p align="center">
-  <img src="images/Schmitt_Symbol.png" width="400"/>
+  <img src="Images/Schmitt_Symbol.png" width="400"/>
 </p>
 
 - Custom symbol designed for hierarchical usage
@@ -67,7 +67,7 @@ And_Gate/
 ## 🧪 Testbench Setup
 
 <p align="center">
-  <img src="images/Schmitt_tb.png" width="650"/>
+  <img src="Images/Schmitt_tb.png" width="650"/>
 </p>
 
 - Sinusoidal input applied to observe switching thresholds  
@@ -78,7 +78,7 @@ And_Gate/
 ## ⚡ Transient Analysis
 
 <p align="center">
-  <img src="images/Schmitt_Transient_response.png" width="650"/>
+  <img src="Images/Schmitt_Transient_response.png" width="650"/>
 </p>
 
 ### Observations:
@@ -91,7 +91,7 @@ And_Gate/
 ## ⏱️ Delay Analysis
 
 <p align="center">
-  <img src="images/Schmitt_Delay.png" width="500"/>
+  <img src="Images/Schmitt_Delay.png" width="500"/>
 </p>
 
 - Propagation delay measured between input and output  
@@ -102,7 +102,7 @@ And_Gate/
 ## ⚡ Energy Analysis
 
 <p align="center">
-  <img src="images/Schmitt_Energy.png" width="500"/>
+  <img src="Images/Schmitt_Energy.png" width="500"/>
 </p>
 
 - Switching energy estimated: **~4.705 nJ**  
