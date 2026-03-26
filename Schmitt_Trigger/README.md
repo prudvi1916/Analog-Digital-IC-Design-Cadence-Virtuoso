@@ -8,8 +8,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Technology-GPDK90nm-blue">
   <img src="https://img.shields.io/badge/Tool-Cadence%20Virtuoso-orange">
-  <img src="https://img.shields.io/badge/Analysis-Transient%20%26%20Delay-green">
-  <img src="https://img.shields.io/badge/Status-Work%20In%20Progress-orange">
+  <img src="https://img.shields.io/badge/Verification-Assura-orange">
+  <img src="https://img.shields.io/badge/Status-Work%20In%20Progress-yellow">
 </p>
 
 ---
@@ -17,7 +17,7 @@
 ## 🚀 Overview
 This project demonstrates the **design and simulation of a CMOS Schmitt Trigger** using **GPDK 90nm technology** in Cadence Virtuoso.
 
-The Schmitt Trigger introduces **hysteresis** to improve noise immunity and signal stability, making it essential in **signal conditioning and digital interfaces**.
+The Schmitt Trigger introduces **hysteresis behavior** using positive feedback, improving **noise immunity** and ensuring stable switching for noisy or slow input signals.
 
 ---
 
