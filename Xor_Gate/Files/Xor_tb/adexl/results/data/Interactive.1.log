@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Mar 27 03:25:26 2026 
+Best design point: 1
+Design specs: 
+	Poli_analog:Xor_tb:1	corner	Nominal - 
+	integ((VT("/vdd!") * IT("/I0/vdd")) 0 2e-08)		3.427f
+Design parameters: 
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Fri Mar 27 03:25:29 2026 
