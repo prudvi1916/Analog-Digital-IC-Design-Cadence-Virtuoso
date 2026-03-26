@@ -23,7 +23,7 @@ The NOR gate is a **fundamental universal logic gate**, widely used in digital s
 
 ## 📂 Project Structure
 ```
-Inverter/
+Nor_Gate/
 │── README.md        # Project overview and documentation
 │── images/          # Simulation results and layout screenshots
 │── files/           # Cadence design files (schematic, layout, testbench)
