@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Mar 26 22:28:25 2026 
+Best design point: 1
+Design specs: 
+	Poli_analog:Nand_tb:1	corner	Nominal - 
+	Energy		1.711f
+Design parameters: 
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Thu Mar 26 22:28:27 2026 
