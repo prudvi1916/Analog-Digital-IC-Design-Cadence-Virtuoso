@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Mar 26 21:34:26 2026 
+Best design point: 1
+Design specs: 
+	Poli_analog:Schmitt_Trigger_tb:1	corner	Nominal - 
+	Energy		4.705n
+Design parameters: 
+
+Interactive.2
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Thu Mar 26 21:34:29 2026 
