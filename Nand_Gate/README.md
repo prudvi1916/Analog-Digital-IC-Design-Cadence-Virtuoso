@@ -23,7 +23,7 @@ The NAND gate is a **universal logic gate**, forming the foundation for complex 
 
 ## 📂 Project Structure
 ```
-Inverter/
+Nand_Gate/
 │── README.md        # Project overview and documentation
 │── images/          # Simulation results and layout screenshots
 │── files/           # Cadence design files (schematic, layout, testbench)
