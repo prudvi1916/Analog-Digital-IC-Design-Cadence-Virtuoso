@@ -82,7 +82,7 @@ And_Gate/
 ## ⚡ Transient Analysis
 
 <p align="center">
-  <img src="Images/And_Transient response.png" width="650"/>
+  <img src="Images/And_Trasient response.png" width="650"/>
 </p>
 
 ### Observations:
