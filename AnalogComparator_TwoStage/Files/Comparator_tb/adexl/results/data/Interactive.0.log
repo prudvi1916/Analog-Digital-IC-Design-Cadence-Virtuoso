@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Mar 27 19:21:02 2026 
+Best design point: 1
+Design specs: 
+	Poli_analog:Two_Stage_Analog_Comparator_tb:1	corner	Nominal - 
+	Energy		747.5f
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Fri Mar 27 19:21:06 2026 
