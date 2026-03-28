@@ -40,6 +40,9 @@ Differential_Pair/
 
 ---
 
+
+---
+
 ## 🛠️ Tools & Technology
 
 - **Cadence Virtuoso**
@@ -48,50 +51,50 @@ Differential_Pair/
 
 ---
 
-## 📐 Schematic Design
+# 📐 Schematic Design
+
+### 🔹 DC Configuration
 
 <p align="center">
-  <img src="Images/Differential_Pair_Schematic.png" width="650"/>
+  <img src="Images/Differential_Pair_Schematic_DC.png" width="600"/>
 </p>
 
-### Circuit Components:
+### 🔹 AC Configuration
 
-- NMOS differential pair  
-- Resistive loads (R0, R1)  
-- Tail current source (Idc = 200 µA)  
-- Supply voltage: **VDD = 1.2 V**
+<p align="center">
+  <img src="Images/Differential_Pair_Schematic_AC.png" width="600"/>
+</p>
 
----
+### 🔹 Transient Configuration
 
-## ⚙️ Working Principle
-
-### 🔹 Differential Operation
-
-Inputs:
-- \( V_{in+} \)
-- \( V_{in-} \)
-
-Outputs:
-- \( V_{o1} \), \( V_{o2} \)
-
-👉 When:
-- \( V_{in+} > V_{in-} \)  
-  → Left transistor conducts more  
-  → \( V_{o1} ↓ \), \( V_{o2} ↑ \)
-
-- \( V_{in+} < V_{in-} \)  
-  → Right transistor conducts more  
-  → \( V_{o1} ↑ \), \( V_{o2} ↓ \)
+<p align="center">
+  <img src="Images/Differential_Pair_Schematic_Transient.png" width="600"/>
+</p>
 
 ---
 
-### 🔹 Key Concept
+## ⚙️ Working Principle (Simple Theory)
 
-\[
-V_{diff} = V_{in+} - V_{in-}
-\]
+The differential pair consists of two matched NMOS transistors sharing a common current source.
 
-The circuit amplifies differential signals while rejecting common-mode noise.
+- A constant current flows through the tail current source  
+- This current is **shared between the two transistors** based on input voltages  
+
+👉 If one input increases:
+- That transistor draws more current  
+- The other transistor draws less  
+
+👉 This creates:
+- One output going **low**
+- Other output going **high**
+
+---
+
+### 🔹 Key Behavior
+
+- Responds only to **difference between inputs**
+- Rejects **common noise signals**
+- Produces **complementary outputs**
 
 ---
 
@@ -100,20 +103,20 @@ The circuit amplifies differential signals while rejecting common-mode noise.
 ### 🔹 Setup
 
 <p align="center">
-  <img src="images/Differential_Pair_DC_Setup.png" width="600"/>
+  <img src="Images/Differential_Pair_DC_Setup.png" width="600"/>
 </p>
 
 ### 🔹 Result
 
 <p align="center">
-  <img src="images/Differential_Pair_DC_Result.png" width="600"/>
+  <img src="Images/Differential_Pair_DC.png" width="600"/>
 </p>
 
 ### 🔹 Observations
 
-- Smooth transfer characteristics  
-- Symmetric behavior around operating point  
-- Proper differential switching  
+- Smooth transition between outputs  
+- Symmetric behavior around center point  
+- Clear switching when inputs cross  
 
 ---
 
@@ -122,20 +125,20 @@ The circuit amplifies differential signals while rejecting common-mode noise.
 ### 🔹 Setup
 
 <p align="center">
-  <img src="images/Differential_Pair_AC_Setup.png" width="600"/>
+  <img src="Images/Differential_Pair_AC_Setup.png" width="600"/>
 </p>
 
 ### 🔹 Result
 
 <p align="center">
-  <img src="images/Differential_Pair_AC_Result.png" width="600"/>
+  <img src="Images/Differential_Pair_AC.png" width="600"/>
 </p>
 
 ### 🔹 Observations
 
-- Constant gain at low frequencies  
-- Gain roll-off at higher frequencies  
-- Bandwidth limitation observed  
+- High gain at low frequencies  
+- Gain decreases at higher frequencies  
+- Shows bandwidth limitation of the circuit  
 
 ---
 
@@ -144,54 +147,50 @@ The circuit amplifies differential signals while rejecting common-mode noise.
 ### 🔹 Setup
 
 <p align="center">
-  <img src="images/Differential_Pair_Transient_Setup.png" width="600"/>
+  <img src="Images/Differential_Pair_Transient_Setup.png" width="600"/>
 </p>
 
 ### 🔹 Result
 
 <p align="center">
-  <img src="Images/Differential_Pair_Transient_Result.png" width="650"/>
+  <img src="Images/Differential_Pair_Transient response.png" width="650"/>
 </p>
 
 ### 🔹 Observations
 
-- Complementary outputs  
-- Clear differential amplification  
-- Stable switching behavior  
+- Outputs switch in opposite directions  
+- Clean differential amplification  
+- Stable and repeatable response  
 
 ---
 
 ## 📊 Key Insights
 
-- Tail current controls gain and linearity  
-- Device matching is critical  
-- Load resistance impacts gain  
-- Gain vs bandwidth trade-off  
+- Tail current controls circuit behavior  
+- Matching between transistors is important  
+- Load resistors affect output swing  
+- Frequency affects gain performance  
 
 ---
 
 ## 📌 Key Learnings
 
-- Differential amplifier fundamentals  
-- Biasing and current steering  
-- Frequency response analysis  
+- Differential amplifier operation  
+- Current steering concept  
+- Signal amplification techniques  
 - Analog design trade-offs  
 
 ---
 
 ## 🎯 Conclusion
 
-The CMOS Differential Pair demonstrates:
+The CMOS Differential Pair successfully demonstrates:
 
-- Accurate differential amplification  
-- Symmetric output behavior  
-- Expected DC, AC, and transient characteristics  
+- Differential signal amplification  
+- Noise rejection capability  
+- Stable and predictable behavior across DC, AC, and transient analyses  
 
-This forms the foundation for:
-
-- Operational Amplifiers  
-- Comparators  
-- Analog Front-End Circuits  
+This circuit forms the base for many advanced analog systems.
 
 ---
 
