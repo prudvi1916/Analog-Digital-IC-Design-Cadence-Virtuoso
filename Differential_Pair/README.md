@@ -35,6 +35,8 @@ Differential_Pair/
 │ ├── Differential_Pair_Transient_Setup.png
 │ ├── Differential_Pair_Transient_Result.png
 │── files/
+```
+
 
 ---
 
@@ -49,7 +51,7 @@ Differential_Pair/
 ## 📐 Schematic Design
 
 <p align="center">
-  <img src="images/Differential_Pair_Schematic.png" width="650"/>
+  <img src="Images/Differential_Pair_Schematic.png" width="650"/>
 </p>
 
 ### Circuit Components:
@@ -148,7 +150,7 @@ The circuit amplifies differential signals while rejecting common-mode noise.
 ### 🔹 Result
 
 <p align="center">
-  <img src="images/Differential_Pair_Transient_Result.png" width="650"/>
+  <img src="Images/Differential_Pair_Transient_Result.png" width="650"/>
 </p>
 
 ### 🔹 Observations
