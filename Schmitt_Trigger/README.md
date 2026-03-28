@@ -136,7 +136,7 @@ VH = VTH+ - VTH−
 ## ⚡ Transient Analysis
 
 <p align="center">
-  <img src="Images/Schmitt_Transient_response.png" width="650"/>
+  <img src="Images/Schmitt_Transient response.png" width="650"/>
 </p>
 
 ### Observations:
