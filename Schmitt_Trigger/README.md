@@ -2,14 +2,14 @@
 
 <p align="center">
   <b>Custom IC Design | Analog Behavior | Hysteresis Analysis</b><br>
-  Cadence Virtuoso • Spectre • Assura • GPDK 90nm
+  Cadence Virtuoso • Spectre • GPDK 90nm
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Technology-GPDK90nm-blue">
   <img src="https://img.shields.io/badge/Tool-Cadence%20Virtuoso-orange">
-  <img src="https://img.shields.io/badge/Verification-Assura-orange">
-  <img src="https://img.shields.io/badge/Status-Work%20In%20Progress-yellow">
+  <img src="https://img.shields.io/badge/Simulator-Spectre-green">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
 </p>
 
 ---
@@ -29,15 +29,12 @@ Schmitt_Trigger/
 │── files/           # Cadence design files (schematic, layout, testbench)
 ```
 
----
-
 
 ---
 
 ## 🛠️ Tools & Technology
 - **Cadence Virtuoso** (Schematic, ADE)
 - **Spectre Simulator**
-- **Assura** (DRC, LVS, RCX)
 - **PDK:** GPDK 90nm
 
 ---
@@ -72,6 +69,67 @@ Schmitt_Trigger/
 
 - Sinusoidal input applied to observe switching thresholds  
 - Output connected with load capacitor  
+
+---
+
+## ⚙️ Working Principle & Circuit Analysis
+
+A CMOS Schmitt Trigger uses **positive feedback** to introduce hysteresis, resulting in two distinct switching thresholds:
+
+- **Upper Threshold (VTH+)**
+- **Lower Threshold (VTH−)**
+
+This ensures stable switching even in the presence of noise.
+
+---
+
+### 🔍 Circuit Operation
+
+#### 🟢 Input Rising (0 → VDD)
+- Output initially **HIGH**
+- Feedback network raises switching threshold
+- Output switches LOW when:
+  **Vin > VTH+**
+
+---
+
+#### 🔴 Input Falling (VDD → 0)
+- Output initially **LOW**
+- Feedback network lowers switching threshold
+- Output switches HIGH when:
+  **Vin < VTH−**
+
+---
+
+### 🔁 Hysteresis Behavior
+
+Hysteresis width:
+
+```
+VH = VTH+ - VTH−
+```
+
+**Benefits:**
+- Eliminates noise-induced switching  
+- Stabilizes slow input signals  
+- Improves digital signal reliability  
+
+---
+
+### ⚡ Key Insight
+
+| Circuit Type     | Threshold | Noise Immunity |
+|-----------------|----------|---------------|
+| CMOS Inverter   | Single   | Low           |
+| Schmitt Trigger | Dual     | High          |
+
+---
+
+### 🎯 Applications
+- Signal conditioning  
+- Oscillators  
+- ADC input stages  
+- Switch debouncing  
 
 ---
 
@@ -110,32 +168,18 @@ Schmitt_Trigger/
 
 ---
 
-## 🧩 Layout Design *(In Progress 🚧)*
-- Layout implementation using **GPDK 90nm technology**
-- Focus on feedback network routing and matching  
-- Optimization for compact and stable design  
+## ✅ Simulation Verification
+
+- Functional verification using transient analysis  
+- Hysteresis behavior validated through input-output response  
+- Delay and energy metrics extracted using Cadence ADE  
 
 ---
 
-## ✅ Verification (Assura)
-
-### ✔ DRC (Design Rule Check)
-- Layout design is currently under implementation  
-- Will ensure full compliance with GPDK 90nm rules  
-
-### ✔ LVS (Layout vs Schematic)
-- Will verify consistency between schematic and layout  
-- Ensures correct functionality  
-
-### ✔ RC Extraction (RCX)
-- Parasitic extraction planned after layout completion  
-- Enables accurate post-layout simulation  
-
----
-
-## 📈 Post-Layout Analysis *(Upcoming 🚧)*
-- Compare pre-layout vs post-layout results  
-- Analyze impact of parasitics on hysteresis and delay  
+## 📈 Future Scope
+- Perform layout implementation and post-layout simulation  
+- Analyze parasitic impact on hysteresis and delay  
+- Optimize transistor sizing for improved performance  
 
 ---
 
@@ -149,7 +193,7 @@ Schmitt_Trigger/
 
 ## 🎯 Conclusion
 The CMOS Schmitt Trigger has been successfully designed and analyzed through simulation.  
-Ongoing work includes **layout design and physical verification** to complete the full custom IC design flow.
+The circuit demonstrates strong **hysteresis behavior**, improved **noise immunity**, and reliable switching performance.
 
 ---
 
