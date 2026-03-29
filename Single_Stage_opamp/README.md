@@ -45,7 +45,7 @@ Single_Stage_Opamp/
 ## 🔷 Symbol Representation
 
 <p align="center">
-  <img src="Images/Single_Stage_opamp_Symbol.png" width="500"/>
+  <img src="Images/Single_Stage_Opamp_Symbol.png" width="500"/>
 </p>
 
 ---
@@ -53,7 +53,7 @@ Single_Stage_Opamp/
 ## 🧪 Testbench Setup
 
 <p align="center">
-  <img src="Images/Single_Stage_opamp_tb.png" width="700"/>
+  <img src="Images/Single_Stage_Opamp_tb.png" width="700"/>
 </p>
 
 ---
@@ -61,7 +61,7 @@ Single_Stage_Opamp/
 ## 📐 Schematic Design
 
 <p align="center">
-  <img src="Images/Single_Stage_opamp_Schematic.png" width="700"/>
+  <img src="Images/Single_Stage_Opamp_Schematic.png" width="700"/>
 </p>
 
 ---
@@ -88,7 +88,7 @@ The op-amp operates using a **differential pair with active load**.
 ## ⚙️ Simulation Setup
 
 <p align="center">
-  <img src="Images/Single_Stage_opamp_ADE L Setup.png" width="700"/>
+  <img src="Images/Single_Stage_Opamp_ADE L Setup.png" width="700"/>
 </p>
 
 ---
@@ -96,7 +96,7 @@ The op-amp operates using a **differential pair with active load**.
 ## 📈 AC Analysis
 
 <p align="center">
-  <img src="Images/Single_Stage_opamp_AC.png" width="700"/>
+  <img src="Images/Single_Stage_Opamp_AC.png" width="700"/>
 </p>
 
 ### 🔹 Observations
@@ -111,7 +111,7 @@ The op-amp operates using a **differential pair with active load**.
 ## ⚡ Transient Analysis
 
 <p align="center">
-  <img src="Images/Single_Stage_opamp_Transient response.png" width="700"/>
+  <img src="Images/Single_Stage_Opamp_Transient response.png" width="700"/>
 </p>
 
 ### 🔹 Observations
@@ -125,7 +125,7 @@ The op-amp operates using a **differential pair with active load**.
 ## 🔍 DC Analysis
 
 <p align="center">
-  <img src="Images/Single_Stage_opamp_DC.png" width="700"/>
+  <img src="Images/Single_Stage_Opamp_DC.png" width="700"/>
 </p>
 
 ### 🔹 Observations
