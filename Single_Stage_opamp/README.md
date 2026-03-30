@@ -131,7 +131,7 @@ This circuit serves as the **foundation for advanced analog blocks**, including:
 - Multi-stage operational amplifiers  
 - Comparators  
 - Analog-to-digital converters (ADCs)  
-- Signal conditioning circuits  nnn
+- Signal conditioning circuits  
 
 ---
 
