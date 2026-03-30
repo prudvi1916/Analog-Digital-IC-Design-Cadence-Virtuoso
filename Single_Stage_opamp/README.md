@@ -66,22 +66,72 @@ Single_Stage_Opamp/
 
 ---
 
-## ⚙️ Working Principle
+## 📚 Theory of Operation
 
-The op-amp operates using a **differential pair with active load**.
+The single-stage CMOS operational amplifier is built using a **differential pair with an active load**, which forms the core of most analog amplification circuits.
 
-### 🔹 Key Operation
+---
 
-- NMOS transistors form the **input differential pair**
-- A constant **tail current source** biases the circuit  
-- PMOS transistors act as **current mirror load**
+### 🔹 Differential Pair Principle
 
-### 🔹 Behavior
+- The input stage consists of two matched NMOS transistors.  
+- A constant **tail current source** provides biasing.  
+- This current is shared between the two transistors based on input voltages.
 
-- When **VIN+ > VIN−** → Output decreases  
-- When **VIN− > VIN+** → Output increases  
-- Converts differential signal to **single-ended output**  
-- Provides voltage amplification with inversion  
+👉 If:
+- **VIN+ increases** → Left transistor conducts more current  
+- **VIN− increases** → Right transistor conducts more current  
+
+This results in a **difference in output voltages**, enabling amplification.
+
+---
+
+### 🔹 Active Load (Current Mirror)
+
+- PMOS transistors form a **current mirror load**  
+- This converts differential current into **voltage output**  
+- Provides higher gain compared to resistive loads  
+
+---
+
+### 🔹 Signal Conversion
+
+- Input: **Differential signal (VIN+, VIN−)**  
+- Output: **Single-ended signal (Vout)**  
+
+The circuit performs:
+- Differential → Single-ended conversion  
+- Signal amplification  
+- Inversion of output  
+
+---
+
+### 🔹 Amplification Behavior
+
+- Small differences in input voltage produce **large changes at output**  
+- Gain depends on:
+  - Transistor characteristics  
+  - Bias current  
+  - Load configuration  
+
+---
+
+### 🔹 Frequency Behavior
+
+- High gain at low frequencies  
+- Gain reduces at higher frequencies due to parasitic effects  
+- Defines the **bandwidth of the amplifier**
+
+---
+
+### 🔹 Importance in Analog Design
+
+This circuit serves as the **foundation for advanced analog blocks**, including:
+
+- Multi-stage operational amplifiers  
+- Comparators  
+- Analog-to-digital converters (ADCs)  
+- Signal conditioning circuits  
 
 ---
 
