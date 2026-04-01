@@ -2,4 +2,4 @@
 Analog and Digital IC Design Practice using Cadence Virtuoso with schematic design, circuit simulation, and ongoing layout implementation using GPDK 90nm technology.
 
 
-wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqqqqqqqqqqqqqqqqqq
+kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
