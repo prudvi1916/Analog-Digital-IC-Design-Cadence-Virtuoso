@@ -1,3 +1,3 @@
 # analog-digital-ic-design-cadence-virtuoso
 Analog and Digital IC Design Practice using Cadence Virtuoso with schematic design, circuit simulation, and ongoing layout implementation using GPDK 90nm technology.
-jvs'v1324567
+jvs'v13245678
