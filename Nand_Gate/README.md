@@ -109,34 +109,51 @@ Nand_Gate/
 
 ---
 
-## 🧩 Layout Design *(In Progress 🚧)*
-- Layout implementation using **GPDK 90nm rules**
-- Focus on:
-  - Proper transistor placement  
-  - Efficient routing  
-  - Minimizing parasitics  
+## 🧩 Layout Design
+
+<p align="center">
+  <img src="Images/Nand_Layout.png" width="350"/>
+</p>
+
+### Features:
+- PMOS placed in **N-well**, NMOS in **P-substrate**
+- Parallel PMOS and series NMOS implementation  
+- Shared poly gates for inputs  
+- Compact routing with proper contacts and vias  
 
 ---
 
 ## ✅ Verification (Assura)
 
+<p align="center">
+  <img src="Images/Nand_drc.png" width="250"/>
+  <img src="Images/Nand_lvs.png" width="250"/>
+  <img src="Images/Nand_rcx.png" width="250"/>
+</p>
+
 ### ✔ DRC (Design Rule Check)
-- Layout design is currently under implementation  
-- Will ensure compliance with GPDK 90nm rules  
+- No violations found  
+- Layout follows all GPDK 90nm rules  
 
 ### ✔ LVS (Layout vs Schematic)
-- Will verify equivalence between schematic and layout  
-- Ensures correct connectivity and functionality  
+- Perfect match between schematic and layout  
+- No mismatches  
 
 ### ✔ RC Extraction (RCX)
-- Parasitic extraction planned after layout completion  
-- Enables accurate post-layout simulation  
+- Parasitics extracted successfully  
+- Extracted view generated  
 
 ---
 
-## 📈 Post-Layout Analysis *(Upcoming 🚧)*
-- Compare pre-layout vs post-layout performance  
-- Analyze delay and power variations due to parasitics  
+## 📈 Post-Layout Simulation
+
+<p align="center">
+  <img src="Images/Nand_compare.png" width="400"/>
+  <img src="Images/Nand_extracted.png" width="400"/>
+</p>
+
+- Extracted view generated after RCX  
+- Ready for post-layout simulation   
 
 ---
 
