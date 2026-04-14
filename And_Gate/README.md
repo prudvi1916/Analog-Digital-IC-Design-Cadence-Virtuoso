@@ -114,24 +114,51 @@ And_Gate/
 
 ---
 
-## 🧩 Layout Design *(In Progress 🚧)*
-- Layout implementation using **GPDK 90nm design rules**
-- Device placement and routing optimization underway  
-- Focus on area efficiency and signal integrity  
+## 🧩 Layout Design
+
+<p align="center">
+  <img src="Images/and_layout.png" width="350"/>
+</p>
+
+### Features:
+- PMOS placed in **N-well**, NMOS in **P-substrate**
+- Parallel PMOS and series NMOS implementation  
+- Shared poly gates for inputs  
+- Compact routing with proper use of contacts and vias  
 
 ---
 
-## ✅ Physical Verification *(Upcoming 🚧)*
+## ✅ Verification (Assura)
 
-- **DRC:** Rule compliance check *(pending)*  
-- **LVS:** Schematic vs layout matching *(pending)*  
-- **RCX:** Parasitic extraction for post-layout analysis *(planned)*  
+<p align="center">
+  <img src="Images/and_drc.png" width="250"/>
+  <img src="Images/and_lvs.png" width="250"/>
+  <img src="Images/and_rcx.png" width="250"/>
+</p>
+
+### ✔ DRC (Design Rule Check)
+- No violations found  
+- Layout follows all GPDK 90nm rules  
+
+### ✔ LVS (Layout vs Schematic)
+- Perfect match between schematic and layout  
+- No mismatches  
+
+### ✔ RC Extraction (RCX)
+- Parasitics extracted successfully  
+- Extracted view generated  
 
 ---
 
-## 📈 Post-Layout Analysis *(Planned 🚧)*
-- Evaluate impact of parasitics on delay and power  
-- Compare pre-layout vs post-layout performance  
+## 📈 Post-Layout Simulation
+
+<p align="center">
+  <img src="Images/and_compare.png" width="400"/>
+  <img src="Images/And_extracted.png" width="400"/>
+</p>
+
+- Extracted view generated after RCX  
+- Ready for post-layout simulation  
 
 ---
 
