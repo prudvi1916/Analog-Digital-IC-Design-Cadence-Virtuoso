@@ -154,7 +154,7 @@ And_Gate/
 
 <p align="center">
   <img src="Images/and_compare.png" width="400"/>
-  <img src="Images/And_extracted.png" width="400"/>
+  <img src="Images/and_extracted.png" width="400"/>
 </p>
 
 - Extracted view generated after RCX  
