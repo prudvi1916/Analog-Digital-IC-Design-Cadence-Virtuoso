@@ -8,8 +8,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Technology-GPDK90nm-blue">
   <img src="https://img.shields.io/badge/Tool-Cadence%20Virtuoso-orange">
-  <img src="https://img.shields.io/badge/Verification-Assura-orange">
-  <img src="https://img.shields.io/badge/Status-Work%20In%20Progress-yellow">
+  <img src="https://img.shields.io/badge/Verification-Assura-green">
+  <img src="https://img.shields.io/badge/Status-LVS%20%26%20DRC%20Clean-brightgreen">
 </p>
 
 ---
