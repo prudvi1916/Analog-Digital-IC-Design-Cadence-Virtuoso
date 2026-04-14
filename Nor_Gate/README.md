@@ -109,31 +109,51 @@ Nor_Gate/
 
 ---
 
-## 🧩 Layout Design *(In Progress 🚧)*
-- Layout implementation using **GPDK 90nm rules**
-- Focus on:
-  - Optimized transistor placement  
-  - Routing efficiency  
-  - Minimizing parasitic effects  
+## 🧩 Layout Design
+
+<p align="center">
+  <img src="Images/nor_layout.png" width="350"/>
+</p>
+
+### Features:
+- PMOS placed in **N-well**, NMOS in **P-substrate**
+- Series PMOS and parallel NMOS implementation  
+- Shared poly gates for inputs  
+- Compact routing with proper use of contacts and vias  
 
 ---
 
 ## ✅ Verification (Assura)
 
+<p align="center">
+  <img src="Images/nor_drc.png" width="250"/>
+  <img src="Images/nor_lvs.png" width="250"/>
+  <img src="Images/nor_rcx.png" width="250"/>
+</p>
+
 ### ✔ DRC (Design Rule Check)
-- Layout verification will ensure rule compliance  
+- No violations found  
+- Layout follows all GPDK 90nm rules  
 
 ### ✔ LVS (Layout vs Schematic)
-- Will confirm schematic and layout equivalence  
+- Perfect match between schematic and layout  
+- No mismatches  
 
 ### ✔ RC Extraction (RCX)
-- Planned for post-layout simulation accuracy  
+- Parasitics extracted successfully  
+- Extracted view generated  
 
 ---
 
-## 📈 Post-Layout Analysis *(Upcoming 🚧)*
-- Compare ideal vs extracted performance  
-- Analyze delay and power variations  
+## 📈 Post-Layout Simulation
+
+<p align="center">
+  <img src="Images/nor_compare.png" width="400"/>
+  <img src="Images/nor_extracted.png" width="400"/>
+</p>
+
+- Extracted view generated after RCX  
+- Ready for post-layout simulation  
 
 ---
 
