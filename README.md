@@ -1,2 +1,2 @@
-# analog-digital-ic-design-cadence-virtuoso  rgw
+# analog-digital-ic-design-cadence-virtuoso  rgw the
 Analog and Digital IC Design Practice using Cadence Virtuoso with schematic design, circuit simulation, and ongoing layout implementation using GPDK 90nm technology.
